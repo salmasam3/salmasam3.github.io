@@ -89,8 +89,15 @@ h2 {
     font-size: medium;
 }
 
+.row {
+    padding: 20px;
+}
+
+.cardWidth {
+    margin: 1em;
+}
+
 .site-footer {
     background-color:  #7498D1;
 }
-
 
