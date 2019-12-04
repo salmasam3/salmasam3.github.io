@@ -6,8 +6,8 @@ body{
     margin-top: 0;
     background-image: url("argyle pattern.png");
 }
-.container-fluid {
-    padding: 0;
+.wrapper {
+    width: 100vw;
 }
 .site-header {
     background-color: #7498D1;
