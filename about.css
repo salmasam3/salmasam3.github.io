@@ -66,12 +66,32 @@ nav ul li a:hover{
 }
 
 .about-container{
-    background:#7498D1;
+    background:white;
     margin: 3em;
     padding: 3em;
-    border-radius: 7px;
-    color: white;
+    color: #262B53;
+    border: #7498D1;
+    border-style: solid;
+    box-shadow: 5px 5px 20px #7498D1;
+    
+}
+
+.about-box p {
+    font-size: 1.2em;
     font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    color: #262B53;
+}
+
+.about-box h1 {
+    font-family: roboto mono;
+    padding: 0 0 20px;
+}
+
+.about-box img {
+    height: 500px;
+    /* margin: auto;    
+    display: block; */
 }
 
 p{

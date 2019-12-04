@@ -76,23 +76,21 @@ nav ul li a:hover{
 
 .jumbotron {
     width: 100%;
-    margin: 20px;
+    /* margin: 20px; */
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(home_background.jpg);
+    border: 1em white;
+    border-style: solid;
 }
-
-.container {
-    margin:0;
-    padding:0;
-}
-
 .jumbotron h1 {
     color:white;
+    font-size: 3em;
     font-family: roboto mono;
     font-display: large;
-    margin:0;
+    margin: .1em;
+    padding: 0;
 }
 
 

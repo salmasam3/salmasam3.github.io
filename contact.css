@@ -76,12 +76,14 @@ nav ul li a:hover{
 }
 
 form {
-    background:#7498D1;
+    background: white;
     margin: 3em;
     padding: 3em;
-    border-radius: 7px;
-    color: white;
+    color: #262B53;
     font-family: 'Roboto', sans-serif;
+    border: #7498D1;
+    border-style: solid;
+    box-shadow: 5px 5px 20px #7498D1;
 }
 
 form h1 {
@@ -92,11 +94,11 @@ form h1 {
 
 
 form button {
-    background-color:rgb(228, 238, 255);
+    background-color:#262B53;
     margin-top: 1em;
-    color: #3A3A43;
+    color: white;
 }
 
 form button:hover {
-    background-color:rgb(255, 255, 255);
+    background-color: #7498D1;
 }
