@@ -4,10 +4,11 @@
 body{
     margin: 0 0;
     margin-top: 0;
+    padding:0;
     background-image: url("argyle pattern.png");
 }
 .wrapper {
-    width: 100vw;
+    padding: 0;
 }
 .site-header {
     background-color: #7498D1;
@@ -70,6 +71,28 @@ nav ul li a:hover{
 
 .fas:hover {
     color:rgb(228, 238, 255);
+}
+
+
+.jumbotron {
+    width: 100%;
+    margin: 20px;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(home_background.jpg);
+}
+
+.container {
+    margin:0;
+    padding:0;
+}
+
+.jumbotron h1 {
+    color:white;
+    font-family: roboto mono;
+    font-display: large;
+    margin:0;
 }
 
 

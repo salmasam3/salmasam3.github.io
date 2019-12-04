@@ -10,7 +10,7 @@ body{
 
 
 .wrapper {
-    width: 100vw;
+    padding: 0;;
 }
 .site-header {
     background-color: #7498D1;
