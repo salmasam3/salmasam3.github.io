@@ -89,9 +89,13 @@ nav ul li a:hover{
 }
 
 .about-box img {
-    height: 500px;
+    height: 70vh;
     /* margin: auto;    
     display: block; */
+}
+
+.writing {
+    min-width: 44vw;
 }
 
 p{
@@ -100,3 +104,21 @@ p{
     color: #FFFFFF;
     text-indent: 50px;
 }
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .about-container {
+        padding: 1.5em 1em;
+    }
+    p{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .about-box img {
+        height: 50vh;
+        /* margin: auto;    
+        display: block; */
+    }
+
+  }
