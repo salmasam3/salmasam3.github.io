@@ -5,7 +5,7 @@
 body{
     margin: 0 0;
     margin-top: 0;
-    background-image: url("images/argyle\ pattern.png");
+    background-image: url("argyle pattern.png");
     font-family: 'Roboto', sans-serif;
 }
 
@@ -73,6 +73,7 @@ nav ul li a:hover{
     border: #7498D1;
     border-style: solid;
     box-shadow: 5px 5px 20px #7498D1;
+}
 
 h1 {
     text-align: center;
