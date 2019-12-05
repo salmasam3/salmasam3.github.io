@@ -66,14 +66,13 @@ nav ul li a:hover{
 }
 
 .schedule-container{
-    background:#7498D1;
+       background:white;
     margin: 3em;
     padding: 3em;
-    border-radius: 7px;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-}
+    color: #262B53;
+    border: #7498D1;
+    border-style: solid;
+    box-shadow: 5px 5px 20px #7498D1;
 
 h1 {
     text-align: center;
